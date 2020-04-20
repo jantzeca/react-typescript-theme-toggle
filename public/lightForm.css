@@ -1,0 +1,11 @@
+:root {
+  --form-background: #eaeaea;
+}
+
+.container {
+  background-color: var(--form-background);
+}
+
+input[type=submit]:hover {
+  background: #ccc;
+}

@@ -1,0 +1,47 @@
+.container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+input#username, input#password {
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+input[type=submit] {
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  background: #eee;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.title h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
